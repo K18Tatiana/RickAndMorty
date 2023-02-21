@@ -1,0 +1,36 @@
+.buttons {
+    display: flex;
+    margin: 30px 0 50px 0;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    color: rgb(24, 170, 255);
+    background-color: rgba(0, 0, 0, 0.856);
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.buttons button:hover {
+    font-size: 22px;
+}
+
+.buttons button:first-child, .buttons button:last-child {
+    font-size: 25px;
+    color: rgb(24, 170, 255);
+}
+
+.buttons button:first-child:hover, .buttons button:last-child:hover {
+    background-color: rgb(24, 170, 255);
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.buttons button:disabled {
+    visibility: hidden;
+}

@@ -1,0 +1,30 @@
+.location {
+    margin: 20px auto;
+    width: 60%;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.location-info {
+    margin-top: 10px;
+    display: flex;
+    background-color: rgb(18, 18, 27);
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+p {
+    padding-top: 3px;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+@media (max-width: 983px) {
+    .location-info div {
+        width: 120px;
+    }
+}

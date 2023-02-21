@@ -1,0 +1,73 @@
+.residents {
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+ul {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(18, 18, 27);
+    width: 450px;
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.507);
+    font-weight: 400;
+}
+
+h4, b {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+img {
+    width: 170px;
+}
+
+@media (max-width: 1400px) {
+    .residents {
+        width: 80%;
+    }
+    ul li {
+        width: 410px;
+    }
+    img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 1050px) {
+    ul li {
+        width: 470px;
+    }
+    img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 650px) {
+    ul li {
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+    }
+    .resident-info {
+        width: inherit;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    img {
+        width: 230px;
+    }
+}
